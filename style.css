@@ -1,0 +1,182 @@
+/* Global Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    line-height: 1.6;
+}
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+.container {
+    width: 90%;
+    margin: auto;
+    overflow: hidden;
+    
+}
+
+/* Header */
+.header {
+    background: #333;
+    color: #fff;
+    padding: 1rem 0;
+    position: sticky;
+    top: 0;
+}
+
+.header .logo {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.nav-links li {
+    margin-left: 15px;
+}
+
+.nav-links a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Hero Section */
+.hero {
+    background: url('pexels-rb-audiovisual-22673943.jpg') no-repeat center center/cover;
+    height: 100vh;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.hero h2 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
+
+.hero .btn {
+    background: #ff6f61;
+    color: #fff;
+    padding: 0.8rem 2rem;
+    border: none;
+    border-radius: 5px;
+    text-transform: uppercase;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.hero .btn:hover {
+    background: #ff4b3e;
+}
+
+/* About Section */
+.about {
+    padding: 2rem;
+    text-align: center;
+}
+
+/* Products Section */
+.products {
+    padding: 2rem;
+    background: #f4f4f4;
+    text-align: center;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+   
+    align-items: center;
+    flex-wrap: wrap;
+}
+.hero .btn{
+  margin-top: 15px;
+}
+.product-card {
+    background: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 1rem;
+    width: 400px;
+    text-align: center;
+    
+}
+
+.product-card img {
+    width: 100%;
+    border-radius: 5px;
+}
+
+.product-card h3 {
+    margin: 1rem 0 0.5rem;
+}
+
+/* Contact Section */
+.contact {
+    padding: 2rem;
+    background: #333;
+    color: #fff;
+    text-align: center;
+}
+
+.contact input,
+.contact textarea,
+.contact button {
+    display: block;
+    width: 80%;
+    margin: 0.5rem auto;
+    padding: 0.8rem;
+    border: none;
+    border-radius: 5px;
+}
+
+.contact button {
+    background: #ff6f61;
+    color: #fff;
+    cursor: pointer;
+    
+}
+
+.contact button:hover {
+    background: #ff4b3e;
+}
+
+/* Footer */
+.footer {
+    text-align: center;
+    padding: 1rem;
+    background: #222;
+    color: #fff;
+}
+html{
+  scroll-behavior: smooth;
+}
+.wat{
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  height: 60px;
+  width: 60px;
+  background: #169368;
+  border-radius: 50%;
+  padding: 8px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+  
+}
+.wat a{
+  color: #fff;
+  text-align: center;
+  line-height: 5px;
+}
